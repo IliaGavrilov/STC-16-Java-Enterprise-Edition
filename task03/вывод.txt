@@ -1,0 +1,20 @@
+"C:\Program Files\Java\jdk1.8.0_202\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\lib\idea_rt.jar=53999:C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Users\Gavrilov\IdeaProjects\part01.lesson04_v3\out\production\part01.lesson04_v3" part01.lesson04.task03.Main
+Массив: [8.0, 7.3, 6.7, 5.2, 4.1, 3.6, 2.1, 1.9]
+Set: [8.0, 3.6, 4.1, 6.7, 1.9, 5.2, 2.1, 7.3]
+Метод equals(): true
+Сумма элементов: 38.9
+Элементы после деления: [0.9130434782608696, 3.4782608695652177, 1.7826086956521738, 3.173913043478261, 1.565217391304348, 2.2608695652173916, 0.8260869565217391, 2.91304347826087]
+Set после удаления элементов: [0.9130434782608696, 1.7826086956521738, 1.565217391304348, 2.2608695652173916, 0.8260869565217391, 2.91304347826087]
+hashCode: 282551298
+Метод equals(): false
+Объекты в коллекции: 
+MathBox{MySet=[0.9130434782608696, 1.7826086956521738, 1.565217391304348, 2.2608695652173916, 0.8260869565217391, 2.91304347826087]}
+MathBox{MySet=[8.0, 3.6, 4.1, 6.7, 1.9, 5.2, 2.1, 7.3]}
+Объекты в коллекции после вызова метода deleteObject(): 
+MathBox{MySet=[0.9130434782608696, 1.7826086956521738, 1.565217391304348, 2.2608695652173916, 0.8260869565217391, 2.91304347826087]}
+Вызов метода dump(): ObjectBox{objectsContainer=[MathBox{MySet=[0.9130434782608696, 1.7826086956521738, 1.565217391304348, 2.2608695652173916, 0.8260869565217391, 2.91304347826087]}]}
+Вызов метода dump(): ObjectBox{objectsContainer=[]}
+Exception in thread "main" java.lang.Exception
+	at part01.lesson04.task03.Main.main(Main.java:74)
+
+Process finished with exit code 1
