@@ -1,0 +1,17 @@
+"C:\Program Files\Java\jdk1.8.0_202\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\lib\idea_rt.jar=62019:C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Users\Gavrilov\IdeaProjects\part01.lesson05\out\production\part01.lesson05" Main
+Общий список животных: AnimalCollection{animalCollection=[Animal{id=2, animalName='Leo', owner='Person{ownerName='Bill', age=31, sex='MAN'}', weight=1.2}, Animal{id=1, animalName='Rex', owner='Person{ownerName='Ammy', age=45, sex='WOMAN'}', weight=5.2}, Animal{id=0, animalName='Murzik', owner='Person{ownerName='John', age=39, sex='MAN'}', weight=4.1}]}
+Объект: Animal{id=0, animalName='Murzik', owner='Person{ownerName='John', age=39, sex='MAN'}', weight=4.1} уже в списке!
+Объект: Animal{id=1, animalName='Rex', owner='Person{ownerName='Ammy', age=45, sex='WOMAN'}', weight=5.2} уже в списке!
+Объект: Animal{id=2, animalName='Leo', owner='Person{ownerName='Bill', age=31, sex='MAN'}', weight=1.2} уже в списке!
+Животное найдено: Animal{id=1, animalName='Rex', owner='Person{ownerName='Ammy', age=45, sex='WOMAN'}', weight=5.2}
+Введите Id животного: 0
+Животное найдено: Animal{id=0, animalName='Murzik', owner='Person{ownerName='John', age=39, sex='MAN'}', weight=4.1}
+Введите новое имя: Pussy
+Введите новый вес: 3.4
+Укажите имя нового хозяина: Robert
+Укажите возвраст нового хозяина: 13
+Укажите пол нового хозяина: MAN
+Общий список животных: AnimalCollection{animalCollection=[Animal{id=2, animalName='Leo', owner='Person{ownerName='Bill', age=31, sex='MAN'}', weight=1.2}, Animal{id=1, animalName='Rex', owner='Person{ownerName='Ammy', age=45, sex='WOMAN'}', weight=5.2}, Animal{id=0, animalName='Pussy', owner='Person{ownerName='Robert', age=13, sex='MAN'}', weight=3.4}]}
+[Animal{id=1, animalName='Rex', owner='Person{ownerName='Ammy', age=45, sex='WOMAN'}', weight=5.2}, Animal{id=2, animalName='Leo', owner='Person{ownerName='Bill', age=31, sex='MAN'}', weight=1.2}, Animal{id=0, animalName='Pussy', owner='Person{ownerName='Robert', age=13, sex='MAN'}', weight=3.4}]
+
+Process finished with exit code 0
